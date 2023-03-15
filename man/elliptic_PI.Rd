@@ -4,7 +4,7 @@
 \alias{elliptic_PI}
 \title{Incomplete elliptic integral of the third kind}
 \usage{
-elliptic_PI(phi, n, m, minerror = 2 * .Machine$double.eps)
+elliptic_PI(phi, n, m, minerror = 1e-15)
 }
 \arguments{
 \item{phi}{amplitude, real or complex number}
@@ -18,7 +18,7 @@ elliptic_PI(phi, n, m, minerror = 2 * .Machine$double.eps)
 }
 \value{
 A complex number, the value of the incomplete elliptic integral
-\ifelse{html}{\out{&Pi;(&phi;,n,m)}}{\eqn{\Pi(\phi,n,m)}{PI(phi,n,m)}}.
+  \ifelse{html}{\out{&Pi;(&phi;,n,m)}}{\eqn{\Pi(\phi,n,m)}{PI(phi,n,m)}}.
 }
 \description{
 Evaluate the incomplete elliptic integral of the third kind.

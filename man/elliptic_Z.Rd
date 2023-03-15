@@ -4,7 +4,7 @@
 \alias{elliptic_Z}
 \title{Jacobi zeta function}
 \usage{
-elliptic_Z(phi, m, minerror = 2 * .Machine$double.eps)
+elliptic_Z(phi, m, minerror = 1e-15)
 }
 \arguments{
 \item{phi}{amplitude, real or complex number}
@@ -16,7 +16,7 @@ and \code{\link{elliptic_F}}}
 }
 \value{
 A complex number, the value of the Jacobi zeta function
-\ifelse{html}{\out{Z(&phi;,m)}}{\eqn{Z(\phi,m)}{Z(phi,m)}}.
+  \ifelse{html}{\out{Z(&phi;,m)}}{\eqn{Z(\phi,m)}{Z(phi,m)}}.
 }
 \description{
 Evaluate the Jacobi zeta function.
