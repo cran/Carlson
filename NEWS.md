@@ -1,3 +1,9 @@
+# Carlson 3.0.0 (2023-11-10)
+
+* The elliptic integrals are now evaluated in C++ and their corresponding R 
+functions are now vectorized.
+
+
 # Carlson 2.1.0 (2023-06-27)
 
 * Added the Heuman Lambda function.
